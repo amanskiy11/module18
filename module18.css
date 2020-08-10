@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+a {
+    text-decoration: none;
+    color: #1B1B1B;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+    width: auto;
+
+}
+
+.skillDrive {
+    width: 115px;
+    height: 28px;
+    margin-left: 40px;
+    margin-top: 31px;
+    display: inline-block;
+
+
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* Black */
+    color: #1B1B1B;
+}
+
+.skillDrive:hover {
+    background: #fdff33;
+}
+
+.navbar-menu {
+    float: right;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.loginButton {
+    box-shadow: 0 0 0 2px #c6c9d1;
+    display: inline-block;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 9px;
+    padding: 12px 30px;
+
+    /* identical to box height */
+
+    /* Black */
+    color: #1B1B1B;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    background: #fdff33;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+.navbar-item {
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B1B1B;
+}
+
+.navbar-item:hover {
+    background: #fdff33;
+}
+
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 120%;
+
+    /* identical to box height, or 77px */
+    text-align: center;
+
+    /* Black */
+    color: #1B1B1B;
+}
+
+.firstSectionText {
+    position: center;
+    width: 925px;
+    height: 105px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 147.3%;
+
+    /* or 35px */
+    text-align: center;
+
+    /* Black */
+    color: #1B1B1B;
+}
+
+.secondSection {
+    background: #F7F9FB;
+    text-align: center;
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    padding-top: 80px;
+
+    /* identical to box height, or 58px */
+    text-align: center;
+
+    /* Black */
+    color: #1B1B1B;
+}
+
+.emailDiv {
+    display: inline-block;
+    width: 264px;
+    height: 56px;
+    text-align: center;
+    border-right: thin solid #cccccc;
+    margin-bottom: 104px;
+}
+
+.emailDiv:last-child {
+    border-right: 0
+}
+
+.key {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 147.3%;
+
+    /* identical to box height, or 21px */
+    text-align: center;
+
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+.value {
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 147.3%;
+
+    /* or 29px */
+    text-align: center;
+
+    color: #000000;
+}
+
+.person {
+    display: inline-block;
+    margin-left: 81px;
+}
+
+.name {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 147.3%;
+    color: #000000;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.position {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 147.3%;
+
+    /* identical to box height, or 21px */
+    text-align: center;
+
+    /* Gray 3 */
+    color: #828282;
+}
+
+.firstRow {
+    text-align: center;
+}
+
+.secondRow {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.team {
+    text-align: center;
+}
+
+footer {
+    height: 124px;
+    background: #3F3D56;
+    text-align: right;
+}
+
+.copyright {
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 40px;
+    float: left;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+    opacity: 0.4;
+
+    padding-top: 53px;
+    padding-bottom: 52px;
+}
+
+.socialLinks {
+
+    vertical-align: middle;
+    float: right;
+    margin-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 52px;
+}
+
+.socialLogo {
+    margin-left: -10px;
+   }
+
+.socialLogo:hover {
+    transform: scale(2);
+}
